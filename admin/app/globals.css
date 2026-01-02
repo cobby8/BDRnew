@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F2F4F6; /* Toss-like Light Grey */
+  --foreground: #191F28; /* Toss-like Dark Grey */
+  
+  --color-primary: #3182F6; /* Toss Blue */
+  --color-primary-foreground: #ffffff;
+  
+  --color-destructive: #E94E58; /* Toss Red */
+  --color-destructive-foreground: #ffffff;
+
+  --color-secondary: #ffffff;
+  --color-secondary-foreground: #333D4B;
+
+  --radius: 1rem; /* rounded-2xl approx */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  
+  --color-primary: var(--color-primary);
+  --color-primary-foreground: var(--color-primary-foreground);
+  
+  --color-destructive: var(--color-destructive);
+  --color-destructive-foreground: var(--color-destructive-foreground);
+  
+  --color-secondary: var(--color-secondary);
+  --color-secondary-foreground: var(--color-secondary-foreground);
+
+  --radius-xl: 12px;
+  --radius-2xl: 20px;
+  --radius-3xl: 24px;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}

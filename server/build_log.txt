@@ -1,0 +1,6 @@
+[91merror[0m[90m TS6053: [0mFile 'C:/0.programing/bdr/server/src/main.ts' not found.
+  The file is in the program because:
+    Matched by default include pattern '**/*'
+
+Found 1 error(s).
+
