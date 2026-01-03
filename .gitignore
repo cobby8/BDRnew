@@ -41,3 +41,16 @@ app-example
 # generated native folders
 /ios
 /android
+
+# Database and Large Files
+pgdata/
+*.exe
+*.log
+*.msi
+
+# Server
+server/dist/
+
+# Admin
+admin/.next/
+admin/out/
